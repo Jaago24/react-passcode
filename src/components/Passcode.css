@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+
+.container{
+    padding: 10px;
+    width: 25rem;
+    height: 20rem;
+    margin-top: 15%;
+    background-color: #b8f5cb;
+}
+.form-group{
+    margin: 20px;
+}
+
+.number-pad{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.number{
+    text-align: center;
+    font-size:1.2em;
+    font-weight:500;
+    color:white;
+    background-color: #52525c;
+    cursor:pointer;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 06.em 1.2em;
+}
+
+.zero{
+    text-align: center;
+    font-size:1.2em;
+    font-weight:500;
+    color:white;
+    background-color: #52525c;
+    cursor:pointer;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 06.em 1.2em;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
